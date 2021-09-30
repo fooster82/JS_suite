@@ -1,0 +1,28 @@
+p {
+    margin:100px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li {
+    display: block;
+}
+
+header, body {
+    background-color: grey;
+}
+
+.show {
+    font-size: medium;
+    font-weight: normal;
+}
+
+
