@@ -31,13 +31,34 @@ lis = document.querySelectorAll("li");
 ps = document.querySelectorAll("p");
 
 lis[0].addEventListener("click", () => {
+  if(ps[0].style.fontWeight === "normal") {
     ps[0].setAttribute("style", "font-size: 50px; font-weight: bolder")
+  } else {
+    ps[0].setAttribute("style", "font-size: 20px; font-weight: normal")
+  }
 });
 
 lis[1].addEventListener("click", () => {
-  ps[1].setAttribute("style", "font-size: 50px; font-weight: bolder");
+  if(ps[1].style.fontWeight === "normal") {
+    ps[1].setAttribute("style", "font-size: 50px; font-weight: bolder")
+  } else {
+    ps[1].setAttribute("style", "font-size: 20px; font-weight: normal")
+  }
 });
 
+
 lis[2].addEventListener("click", () => {
-  ps[2].setAttribute("style", "font-size: 50px; font-weight: bolder")
+  if(ps[2].style.fontWeight === "normal") {
+    ps[2].setAttribute("style", "font-size: 50px; font-weight: bolder")
+  } else {
+    ps[2].setAttribute("style", "font-size: 20px; font-weight: normal")
+  }
 });
+
+
+
+
+
+// lis[2].addEventListener("click", () => {
+  //   ps[2].setAttribute("style", "font-size: 50px; font-weight: bolder")
+  // });
